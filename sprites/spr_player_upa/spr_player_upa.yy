@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_player_upa","path":"sprites/spr_player_upa/spr_player_upa.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

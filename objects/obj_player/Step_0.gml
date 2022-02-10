@@ -7,35 +7,12 @@ attack_key = keyboard_check_pressed(ord("Z"));
 
 if(state = "Normal"){
 scr_normal_script()
-if (attack_key){
-	switch (sprite_index){
-	case spr_player_down :
-	sprite_index = spr_player_downa
-	
-	break;
-	
-	case spr_player_right :
-	sprite_index = spr_player_righta
-	
-	break;
-	
-	case spr_player_left :
-	sprite_index = spr_player_lefta
-	
-	break;
-	
-	case spr_player_up :
-	sprite_index = spr_player_upa
-	
-	break;
-		}
-	state = "Attack"
-	}
-	scr_attack()
-	
-}
 
-if (roll_key){
+
+	
+
+
+	if (roll_key){
 	switch (sprite_index){
 	
 	case spr_player_down :
@@ -60,8 +37,38 @@ if (roll_key){
 		}
 	state = "Roll"
 	}
+	if (attack_key){
+	switch (sprite_index){
+	case spr_player_down :
+	sprite_index = spr_player_downa
+	
+	break;
+	
+	case spr_player_right :
+	sprite_index = spr_player_righta
+	
+	break;
+	
+	case spr_player_left :
+	sprite_index = spr_player_lefta
+	
+	break;
+	
+	case spr_player_up :
+	sprite_index = spr_player_upa
+	
+	break;
+	
+		}
+	state = "Attack"
+	}
+	
+	
+//depth
+depth = -bbox_bottom;
 
-	if(state = "Roll"){
+}
+if(state = "Roll"){
 	vsp = vsp/2;
 	hsp = hsp/2;
 	if(image <= 5){
@@ -119,7 +126,18 @@ if (roll_key){
 			state = "Normal"
 		}
 	}
-	
-//depth
-depth = -bbox_bottom;
-
+		if state = "Attack"{
+		//image = 0
+		//if (image >= 5){image_speed = 1}
+		image += 0.1
+		
+		
+		if (image == 3){
+			//scr_normal_script()
+			//image_speed = 0;
+			state = "Normal"
+			image = 0
+			
+			}
+			
+		}
