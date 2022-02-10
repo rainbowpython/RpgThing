@@ -3,7 +3,7 @@
 function scr_attack(){
 if(image <= 2){
 		image_speed = 1;
-
+		
 		
 		
 		}
