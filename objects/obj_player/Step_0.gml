@@ -3,8 +3,37 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 roll_key = keyboard_check_pressed(vk_space);
+attack_key = keyboard_check_pressed(ord("Z"));
+
 if(state = "Normal"){
 scr_normal_script()
+if (attack_key){
+	switch (sprite_index){
+	case spr_player_down :
+	sprite_index = spr_player_downa
+	
+	break;
+	
+	case spr_player_right :
+	sprite_index = spr_player_righta
+	
+	break;
+	
+	case spr_player_left :
+	sprite_index = spr_player_lefta
+	
+	break;
+	
+	case spr_player_up :
+	sprite_index = spr_player_upa
+	
+	break;
+		}
+	state = "Attack"
+	}
+	scr_attack()
+	
+}
 
 if (roll_key){
 	switch (sprite_index){
@@ -31,7 +60,7 @@ if (roll_key){
 		}
 	state = "Roll"
 	}
-}
+
 	if(state = "Roll"){
 	vsp = vsp/2;
 	hsp = hsp/2;
