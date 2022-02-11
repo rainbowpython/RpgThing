@@ -41,22 +41,34 @@ scr_normal_script()
 	switch (sprite_index){
 	case spr_player_down :
 	sprite_index = spr_player_downa
-	
+	with instance_create_depth(x,y,depth,obj_player_attack){
+		//global.attack_direction = "down"
+	sprite_index = spr_player_attack_slashd
+	}
 	break;
 	
 	case spr_player_right :
 	sprite_index = spr_player_righta
-	
+	with instance_create_depth(x,y,depth,obj_player_attack){
+	//	global.attack_direction = "right"
+	sprite_index = spr_player_attack_slashr
+	}
 	break;
 	
 	case spr_player_left :
 	sprite_index = spr_player_lefta
-	
+	with instance_create_depth(x,y,depth,obj_player_attack){
+	//	global.attack_direction = "left"
+	sprite_index = spr_player_attack_slashl
+	}
 	break;
 	
 	case spr_player_up :
 	sprite_index = spr_player_upa
-	
+	with instance_create_depth(x,y,depth,obj_player_attack){
+	//	global.attack_direction = "up"
+	sprite_index = spr_player_attack_slashu
+	}
 	break;
 	
 		}
