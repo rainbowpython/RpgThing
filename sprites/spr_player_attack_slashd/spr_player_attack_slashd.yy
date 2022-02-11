@@ -67,7 +67,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 38,
-    "yorigin": 11,
+    "yorigin": 2,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_attack_slashd","path":"sprites/spr_player_attack_slashd/spr_player_attack_slashd.yy",},
