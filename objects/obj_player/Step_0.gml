@@ -2,7 +2,7 @@ right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
-roll_key = keyboard_check_pressed(vk_space);
+roll_key = keyboard_check_pressed(ord("X"));
 attack_key = keyboard_check_pressed(ord("Z"));
 
 if(state = "Normal"){

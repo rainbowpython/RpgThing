@@ -3,4 +3,4 @@
 state = states.idle;
 actionDur = 0;
 speed = 0.5
-distance_trigger = 200
+distance_trigger = 10
