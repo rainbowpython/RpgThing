@@ -41,7 +41,7 @@
     "spriteId": {"name":"spr_slime","path":"sprites/spr_slime/spr_slime.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 3.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

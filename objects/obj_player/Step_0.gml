@@ -4,7 +4,9 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 roll_key = keyboard_check_pressed(ord("X"));
 attack_key = keyboard_check_pressed(ord("Z"));
-
+if(state = "Normal" or state = "Roll"){
+	
+}
 if(state = "Normal"){
 scr_normal_script()
 
@@ -13,6 +15,7 @@ scr_normal_script()
 
 
 	if (roll_key){
+		
 	switch (sprite_index){
 	
 	case spr_player_down :
@@ -38,6 +41,7 @@ scr_normal_script()
 	state = "Roll"
 	}
 	if (attack_key and global.move_speed == 1.7){
+	
 	switch (sprite_index){
 	case spr_player_down :
 	sprite_index = spr_player_downa

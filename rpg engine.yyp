@@ -79,7 +79,6 @@
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"order":9,},
     {"id":{"name":"spr_player_attack_slashd","path":"sprites/spr_player_attack_slashd/spr_player_attack_slashd.yy",},"order":51,},
     {"id":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},"order":20,},
-    {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":4,},
     {"id":{"name":"unnamed_3540","path":"sprites/unnamed_3540/unnamed_3540.yy",},"order":14,},
     {"id":{"name":"fon_game_font","path":"fonts/fon_game_font/fon_game_font.yy",},"order":1,},

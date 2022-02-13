@@ -121,7 +121,7 @@ if accept_key{
 		
 			if (option_pos ==op){
 				//draw_sprite(spr_confuseheart_0, 0 ,textbox_x, textbox_y - _op_space*option_number + _op_space*op)
-				draw_sprite_ext(spr_confuseheart_0, 0 ,textbox_x, textbox_y - _op_space*option_number + _op_space*op,0.9,0.9,0,c_white,1)
+				draw_sprite_ext(spr_confuseheart_0, 0 ,textbox_x + sprite_width/2, textbox_y + sprite_height/2 - _op_space*option_number + _op_space*op,0.7,0.7,0,c_white,1)
 			
 			}
 	

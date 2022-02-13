@@ -4,7 +4,7 @@
     "path": "sprites/spr_player_attack_slashu/spr_player_attack_slashu.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
