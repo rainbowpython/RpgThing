@@ -9,6 +9,9 @@ if (instance_exists(follow)){
 
 x += (xTo-x) / 1;
 y += (yTo-y) / 1;
+if(instance_exists(obj_slime)){
+image_alpha = 1;
+}else image_alpha = 0;
 
 
 i_timer++
@@ -21,6 +24,8 @@ if(place_meeting(x,y,obj_slime)){
 	//while(fly_timer <= 120){
 	speed = 8;
 	health--;
+	//obj_player.x = -point_direction(x,0,-obj_slime.x, 0)
+	//obj_player.y = -point_direction(0,y,0, obj_slime.y)
 	//	}
 	//	speed = 0;
 	

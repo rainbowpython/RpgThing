@@ -88,6 +88,12 @@ function scr_game_text(_text_id){
 	case "fireplace - no":
 	//room_goto("Hotland_1")
 	instance_destroy(obj_textbox);
-	break
+	break;
+	
+	
+	case "questie":
+	scr_text("Hewo! I'm you're best buddie questie!");
+	scr_text("I like questing!")
+	break;
 	}
 }
