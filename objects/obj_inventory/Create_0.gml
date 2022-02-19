@@ -6,20 +6,21 @@ up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
 accept_key = keyboard_check_pressed(ord("Z"));
 
-item_count = 0
 
-row_length = 6;
-inventory = array_create(INVENTORY_SLOTS, -1);
+
+depth = -999999999999999999999999
+inventory = array_create(INVENTORY_SLOTS, "");
 randomize();
-inventory[0] = 0;
-inventory[1] = 0;
-inventory[2] = 1;
-width = room_width/4;
-height = 208;
+inventory[0] = "nothing";
+inventory[1] = "nothin";
+inventory[2] = "";
+width = room_width/3;
+height = view_hport[0];
+item_count = array_length(inventory);
 
 //all the op stuff stands for nothing in this object, im just to lazy to clean it up
 op_border = 8
-op_space= 24;
+op_space= 10;
 
 pos = 0;
 

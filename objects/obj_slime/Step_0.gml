@@ -33,3 +33,8 @@ if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;
 	
+	if(instance_exists(obj_inventory)){
+speed = 0;
+image_speed = 0
+} 
+	

@@ -11,3 +11,6 @@ if (place_meeting(x-10,y,obj_player)){
 	}
 
 }
+if(instance_exists(obj_inventory)){
+depth = 0;
+}
