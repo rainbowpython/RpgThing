@@ -4,10 +4,11 @@ function scr_game_text(_text_id){
 	switch(_text_id){
 		//scr_option("the thing that shows up", "(_option), (id - option)")
 	case "trash":
-	//scr_text("its trash, the fuck you did you expect?")
-		scr_text("do you want to eat trash?")
-			scr_option("yes", "trash - yes")
-			scr_option("no", "trash - no")
+		scr_text("its trash, does not smell to great")
+			//scr_text("do you want to eat trash?")
+			scr_option("eat", "trash - yes")
+			scr_option("take","trash - take")
+			scr_option("nothing", "trash - no")
 			
 	
 	break
@@ -19,9 +20,24 @@ function scr_game_text(_text_id){
 	break
 	
 	case "trash - no":
-	//scr_text("its trash, the fuck you did you expect?")
+	
 		scr_text("Fuck you")
+	break
+	
+	case "trash - take":
+		//global.inventory[1] = "trash"
+		scr_text("You got: Trash!!")
+		//scr_add_item("trash")
 			
+				for(var i = 0;  i<INVENTORY_SLOTS; i++){
+					if(global.inventory[i] = ""){
+				global.inventory[i] = "trash"
+				break;
+				
+			}
+}
+			
+			//global.inventory[1] = "trash"
 	
 	break
 	

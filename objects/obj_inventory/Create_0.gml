@@ -9,14 +9,13 @@ accept_key = keyboard_check_pressed(ord("Z"));
 
 
 depth = -999999999999999999999999
-inventory = array_create(INVENTORY_SLOTS, "");
+//global.inventory = array_create(INVENTORY_SLOTS, "");
 randomize();
-inventory[0] = "nothing";
-inventory[1] = "nothin";
-inventory[2] = "";
+global.inventory[0] = "Inventory";
+//global.inventory[1] = "trash"
 width = room_width/3;
 height = view_hport[0];
-item_count = array_length(inventory);
+item_count = array_length(global.inventory);
 
 //all the op stuff stands for nothing in this object, im just to lazy to clean it up
 op_border = 8
