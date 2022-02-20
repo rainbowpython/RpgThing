@@ -103,6 +103,7 @@
     {"id":{"name":"made_in_heaven_test_animationyoutubetomp3","path":"sounds/made_in_heaven_test_animationyoutubetomp3/made_in_heaven_test_animationyoutubetomp3.yy",},"order":1,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":3,},
     {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":3,},
+    {"id":{"name":"Object30","path":"objects/Object30/Object30.yy",},"order":29,},
     {"id":{"name":"spr_house_tiles","path":"sprites/spr_house_tiles/spr_house_tiles.yy",},"order":8,},
     {"id":{"name":"spr_bed_dark_0","path":"sprites/spr_bed_dark_0/spr_bed_dark_0.yy",},"order":16,},
     {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},"order":6,},

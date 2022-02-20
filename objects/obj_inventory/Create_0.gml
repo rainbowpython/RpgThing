@@ -11,7 +11,7 @@ accept_key = keyboard_check_pressed(ord("Z"));
 depth = -999999999999999999999999
 //global.inventory = array_create(INVENTORY_SLOTS, "");
 randomize();
-global.inventory[0] = "Inventory";
+
 //global.inventory[1] = "trash"
 width = room_width/3;
 height = view_hport[0];

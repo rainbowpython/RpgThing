@@ -2,8 +2,8 @@ hsp = 0;
 vsp = 0;
 fly_timer = 120;
 state = "Normal";
-image_xscale = 1.3
-image_yscale = 1.3
+image_xscale = 1.2
+image_yscale = 1.2
 global.move_speed = 2;
 image = 0;
 

@@ -1,5 +1,5 @@
 //textbox parameters
-//depth = -9999999999999999999999999
+depth = -9999999999999999999999999
 
 //textbox_width = 48
 textbox_width = camera_get_view_width(view_camera[0])/20 -2

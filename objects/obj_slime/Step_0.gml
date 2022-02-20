@@ -37,4 +37,6 @@ if (direction>=90 and direction<=270){
 speed = 0;
 image_speed = 0
 } 
+		
+		if(place_meeting(x, y, obj_player_attack)){}
 	

@@ -3,6 +3,11 @@
 function scr_game_text(_text_id){
 	switch(_text_id){
 		//scr_option("the thing that shows up", "(_option), (id - option)")
+		case "cookie":
+		scr_text("You got a cookie!!")
+		break;
+		
+		
 	case "trash":
 		scr_text("its trash, does not smell to great")
 			//scr_text("do you want to eat trash?")
@@ -33,10 +38,11 @@ function scr_game_text(_text_id){
 					if(global.inventory[i] = ""){
 				global.inventory[i] = "trash"
 				break;
-				
 			}
 }
+			//while(){
 			
+			//}
 			//global.inventory[1] = "trash"
 	
 	break
