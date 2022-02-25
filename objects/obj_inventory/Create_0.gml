@@ -13,7 +13,7 @@ depth = -999999999999999999999999
 randomize();
 
 //global.inventory[1] = "trash"
-width = room_width/3;
+width = camera_get_view_height(view_camera[0])/2;
 height = view_hport[0];
 item_count = array_length(global.inventory);
 

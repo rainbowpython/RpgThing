@@ -5,6 +5,7 @@ function scr_game_text(_text_id){
 		//scr_option("the thing that shows up", "(_option), (id - option)")
 		case "cookie":
 		scr_text("You got a cookie!!")
+		scr_add_item("cookie")
 		break;
 		
 		
@@ -32,14 +33,14 @@ function scr_game_text(_text_id){
 	case "trash - take":
 		//global.inventory[1] = "trash"
 		scr_text("You got: Trash!!")
-		//scr_add_item("trash")
-			
+		scr_add_item("trash")
+			/*
 				for(var i = 0;  i<INVENTORY_SLOTS; i++){
 					if(global.inventory[i] = ""){
 				global.inventory[i] = "trash"
 				break;
 			}
-}
+}*/
 			//while(){
 			
 			//}
