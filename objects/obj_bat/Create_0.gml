@@ -3,6 +3,6 @@
 state = states.idle;
 actionDur = 0;
 speed = 0.5
-distance_trigger = 100
-attack_damage = 1;
+distance_trigger = 300
+attack_damage = 0.5;
 

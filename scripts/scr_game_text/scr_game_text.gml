@@ -5,7 +5,8 @@ function scr_game_text(_text_id){
 		//scr_option("the thing that shows up", "(_option), (id - option)")
 		case "cookie":
 		scr_text("You got a cookie!!")
-		scr_add_item("cookie")
+		scr_add_item("cookie");
+		instance_destroy(obj_cookie);
 		break;
 		
 		
