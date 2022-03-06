@@ -4,5 +4,5 @@ state = states.idle;
 actionDur = 0;
 speed = 0.5
 distance_trigger = 100
-attack_damage = 1;
+attack_damage = 1.5;
 

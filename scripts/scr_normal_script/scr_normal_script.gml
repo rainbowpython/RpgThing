@@ -3,8 +3,8 @@
 function scr_normal_script(){
 	global.hsp = (right_key - left_key) * global.move_speed
 global.vsp= (down_key - up_key) * global.move_speed
-vsp = global.vsp
-hsp = global.hsp
+vsp = global.vsp+hitvsp
+hsp = global.hsp+hithsp
 
 sprite_index = sprite[DOWN]
 if (vsp == 0){
@@ -28,10 +28,12 @@ if(place_meeting(x , y +vsp, obj_wall)){
 vsp=0;
 }
 
+y+=vsp 
+x+=hsp 
 
-x+=hsp
-y+=vsp
 
+hithsp /= 1.1
+hitvsp /=1.1
 //set sprite
 
 mask_index = spr_player_left;

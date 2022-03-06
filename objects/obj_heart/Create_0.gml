@@ -9,3 +9,5 @@ image_xscale= 0.4
 image_yscale= 0.4
 depth = -999
 i_timer = 120;
+hhsp = 0
+		hvsp =0

@@ -14,3 +14,5 @@ sprite[LEFT] = spr_player_left;
 sprite[DOWN] = spr_player_down;
 health = 3
 face = DOWN;
+hithsp = 0;
+hitvsp = 0;

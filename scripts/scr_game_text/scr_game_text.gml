@@ -118,6 +118,7 @@ function scr_game_text(_text_id){
 	case "questie":
 	scr_text("Hewo! I'm you're best buddie questie!");
 	scr_text("I like questing!")
+	if (scr_check_item("cookie") = true){scr_text("cookie")}
 	break;
 	}
 }
