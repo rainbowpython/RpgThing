@@ -37,6 +37,15 @@ if (direction>=90 and direction<=270){
 speed = 0;
 image_speed = 0
 } 
-		
-		if(place_meeting(x, y, obj_player_attack)){}
+		var _inst = instance_place(x,y,obj_player_attack)
+		if _inst != noone{
+			//health -= 1
+			dir = point_direction(_inst.x,_inst.y, x,y);
+			hithsp= lengthdir_x(6,dir);
+			hitvsp= lengthdir_y(6,dir);
+			//health -= 1
+		}
+		if(health <=0){
+		instance_destroy(self);
+		}
 	

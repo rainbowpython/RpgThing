@@ -19,7 +19,7 @@ image_alpha = 1;
 
 i_timer++
 
-if(i_timer >= 120){
+if(i_timer >= 120 and obj_player.state !="Roll"){
 
 var _inst = instance_place(x, y, obj_slime);
 if _inst != noone{
@@ -32,13 +32,10 @@ if _inst != noone{
 	//direction = dir
 		hithsp= lengthdir_x(6,dir);
 		hitvsp= lengthdir_y(6,dir);
-		//global.hsp = lengthdir_x(6,-dir)
-		//global.vsp = lengthdir_y(6,-dir)
-		//motion_add(dir,5)
-	//motion_set(,3)
-	//speed = 8;
+		
 	
-	health = health - _inst.attack_damage;
+	
+	health  -= _inst.attack_damage;
 	
 	
 	
