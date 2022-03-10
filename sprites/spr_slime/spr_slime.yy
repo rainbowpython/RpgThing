@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_slime","path":"sprites/spr_slime/spr_slime.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_slime",
     "tags": [],
     "resourceType": "GMSequence",

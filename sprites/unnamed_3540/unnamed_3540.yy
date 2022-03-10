@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"unnamed_3540","path":"sprites/unnamed_3540/unnamed_3540.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "unnamed_3540",
     "tags": [],
     "resourceType": "GMSequence",

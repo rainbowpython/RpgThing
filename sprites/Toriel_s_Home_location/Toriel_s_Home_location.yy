@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Toriel_s_Home_location","path":"sprites/Toriel_s_Home_location/Toriel_s_Home_location.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Toriel_s_Home_location",
     "tags": [],
     "resourceType": "GMSequence",

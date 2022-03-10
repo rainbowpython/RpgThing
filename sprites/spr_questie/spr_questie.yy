@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_questie","path":"sprites/spr_questie/spr_questie.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_questie",
     "tags": [],
     "resourceType": "GMSequence",

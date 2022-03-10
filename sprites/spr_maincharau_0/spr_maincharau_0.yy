@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_maincharau_0","path":"sprites/spr_maincharau_0/spr_maincharau_0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_maincharau_0",
     "tags": [],
     "resourceType": "GMSequence",

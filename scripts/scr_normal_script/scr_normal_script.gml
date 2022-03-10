@@ -1,11 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_normal_script(){
+
 	global.hsp = (right_key - left_key) * global.move_speed
 global.vsp= (down_key - up_key) * global.move_speed
-vsp = global.vsp+hitvsp
-hsp = global.hsp+hithsp
-
+	if(place_meeting(x + hithsp, y , obj_wall)){
+hithsp=0;
+}
+if(place_meeting(x , y +hitvsp, obj_wall)){
+hitvsp=0;
+}
+hsp = global.hsp 
+vsp = global.vsp 
 sprite_index = sprite[DOWN]
 if (vsp == 0){
 if hsp > 0 {face = RIGHT};
@@ -28,8 +34,8 @@ if(place_meeting(x , y +vsp, obj_wall)){
 vsp=0;
 }
 
-y+=vsp 
-x+=hsp 
+y+=vsp +hitvsp
+x+=hsp +hithsp
 
 
 hithsp /= 1.1

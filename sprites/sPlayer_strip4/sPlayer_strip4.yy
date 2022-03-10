@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayer_strip4","path":"sprites/sPlayer_strip4/sPlayer_strip4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayer_strip4",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_cookie","path":"sprites/spr_cookie/spr_cookie.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_cookie",
     "tags": [],
     "resourceType": "GMSequence",

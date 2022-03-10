@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_downr","path":"sprites/spr_player_downr/spr_player_downr.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_downr",
     "tags": [],
     "resourceType": "GMSequence",

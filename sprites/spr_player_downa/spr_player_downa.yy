@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_downa","path":"sprites/spr_player_downa/spr_player_downa.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_downa",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_maincharar_0","path":"sprites/spr_maincharar_0/spr_maincharar_0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_maincharar_0",
     "tags": [],
     "resourceType": "GMSequence",

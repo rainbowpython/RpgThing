@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_trashheap_0","path":"sprites/spr_trashheap_0/spr_trashheap_0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_trashheap_0",
     "tags": [],
     "resourceType": "GMSequence",

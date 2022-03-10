@@ -27,17 +27,22 @@ if _inst != noone{
 	i_timer = 0;
 	with(obj_player){
 	
-	dir = point_direction(x,y,-obj_slime.x, obj_slime.y);
-	
+	//dir = point_direction(obj_heart.x,obj_heart.y,_inst.x, _inst.y);
+	dir = point_direction(_inst.x, _inst.y,obj_heart.x,obj_heart.y);
+	//direction = dir
 		hithsp= lengthdir_x(6,dir);
 		hitvsp= lengthdir_y(6,dir);
-	
+		//global.hsp = lengthdir_x(6,-dir)
+		//global.vsp = lengthdir_y(6,-dir)
+		//motion_add(dir,5)
+	//motion_set(,3)
 	//speed = 8;
+	
 	health = health - _inst.attack_damage;
 	
 	
 	
-		if(health == 0){
+		if(health <= 0){
 		game_end();
 		}
 	}

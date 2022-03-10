@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_right",
     "tags": [],
     "resourceType": "GMSequence",

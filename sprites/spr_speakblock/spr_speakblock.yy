@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_speakblock","path":"sprites/spr_speakblock/spr_speakblock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_speakblock",
     "tags": [],
     "resourceType": "GMSequence",

@@ -183,7 +183,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerRun_strip32","path":"sprites/sPlayerRun_strip32/sPlayerRun_strip32.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerRun_strip32",
     "tags": [],
     "resourceType": "GMSequence",

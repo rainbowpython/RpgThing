@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerAttackSlash_strip16","path":"sprites/sPlayerAttackSlash_strip16/sPlayerAttackSlash_strip16.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerAttackSlash_strip16",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"unnamed_307","path":"sprites/unnamed_307/unnamed_307.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "unnamed_307",
     "tags": [],
     "resourceType": "GMSequence",

@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayerRoll_strip24","path":"sprites/sPlayerRoll_strip24/sPlayerRoll_strip24.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayerRoll_strip24",
     "tags": [],
     "resourceType": "GMSequence",

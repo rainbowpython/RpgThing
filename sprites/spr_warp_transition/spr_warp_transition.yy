@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_warp_transition","path":"sprites/spr_warp_transition/spr_warp_transition.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_warp_transition",
     "tags": [],
     "resourceType": "GMSequence",

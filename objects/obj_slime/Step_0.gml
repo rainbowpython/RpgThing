@@ -25,7 +25,9 @@ switch (state) {
 	if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;
-	speed = 1;
+	//speed = 1;
+	hsp = lengthdir_x(1,direction)
+	vsp = lengthdir_y(1,direction)
 	}
 	break;
 }
@@ -38,5 +40,11 @@ speed = 0;
 image_speed = 0
 } 
 		
-		if(place_meeting(x, y, obj_player_attack)){}
-	
+		if(place_meeting(x + hsp, y , obj_wall)){
+hsp=0;
+}
+if(place_meeting(x , y +vsp, obj_wall)){
+vsp=0;
+}
+	x+=hsp;
+	y+=vsp;

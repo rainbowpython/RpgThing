@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_lefta","path":"sprites/spr_player_lefta/spr_player_lefta.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_lefta",
     "tags": [],
     "resourceType": "GMSequence",
