@@ -6,6 +6,7 @@
 enum states {
 idle,
 chase,
-shoot
-
+shoot,
+attack,
+charge
 }

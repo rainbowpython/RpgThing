@@ -12,7 +12,7 @@ vsp = yTo-y ;
 
 x += hsp//(xTo-x) / 1;
 y += vsp//(yTo-y) / 1;
-if(instance_exists(obj_slime)){
+if(instance_exists(obj_enemy)){
 image_alpha = 1;
 }else image_alpha = 0;
 

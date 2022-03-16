@@ -17,18 +17,18 @@ switch (state) {
 	
 	case states.chase:
 	image_speed = 10
-	if (distance_to_object(obj_player) > distance_trigger +10){
+	if (distance_to_object(obj_player) > distance_trigger +100){
 	
 	state = states.idle;
 	
 	}else{
-	direction = point_direction(x,y,obj_player.x,obj_player.y)
-	if (direction>=90 and direction<=270){
-	image_xscale=-1
-	}else image_xscale = 1;
-	hsp = lengthdir_x(1,direction);
-	vsp = lengthdir_y(1,direction);
-	}
+		direction = point_direction(x,y,obj_player.x,obj_player.y)
+			if (direction>=90 and direction<=270){
+			image_xscale=-1
+			}else image_xscale = 1;
+		hsp = lengthdir_x(1,direction);
+		vsp = lengthdir_y(1,direction);
+		}
 	break;
 }
 if (direction>=90 and direction<=270){
@@ -43,9 +43,9 @@ image_speed = 0
 		if _inst != noone{
 			//health -= 1
 			hitdir = point_direction(_inst.x,_inst.y, x,y);
-			hithsp= lengthdir_x(6,hitdir);
-			hitvsp= lengthdir_y(6,hitdir);
-			health -= 1
+			hithsp= lengthdir_x(10,hitdir);
+			hitvsp= lengthdir_y(10,hitdir);
+			hp -= 1
 		}
 			
 				if(place_meeting(x + hithsp, y , obj_wall)){
@@ -63,8 +63,8 @@ vsp=0;
 }
 			x+=hsp + hithsp;
 			y+=vsp+hitvsp;
-		if(health <=0){
-		instance_destroy(self);
+		if(hp <=0){
+		instance_destroy(id);
 		}
 		hithsp/=2;
 		hitvsp/=2

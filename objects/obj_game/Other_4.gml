@@ -4,17 +4,14 @@ switch(room){
 	break;
 	
 	case Room2:
-	if(audio_is_playing(mus_coretransition)){
-		audio_stop_all();
-		
-	}else{
-
-audio_stop_all()
-}
-	
-	audio_play_sound(mus_coretransition,2,true)
+scr_music(mus_coretransition);
 
 break;
+	case Room3 :
+	case Room4:
+	case Room5:
+	scr_music(house)
+	break
 }
 
 

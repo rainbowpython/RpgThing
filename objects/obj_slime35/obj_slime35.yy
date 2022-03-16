@@ -35,7 +35,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_slime",
+  "name": "obj_slime35",
   "tags": [],
   "resourceType": "GMObject",
 }

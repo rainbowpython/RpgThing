@@ -8,15 +8,15 @@ switch (state) {
 	state = states.chase;
 	}
 	dir = random(360);
+	
+	speed=0;
 			hsp= lengthdir_x(0.5,dir);
 			vsp= lengthdir_y(0.5,dir);
 	
 	break;
 	
 	case states.chase:
-	image_speed = 5
-	//if(distance_to_object(obj_player)<distance_trigger-50){state = states.charge}
-	
+	image_speed = 10
 	if (distance_to_object(obj_player) > distance_trigger +10){
 	
 	state = states.idle;
@@ -30,17 +30,7 @@ switch (state) {
 	vsp = lengthdir_y(1,direction);
 	}
 	break;
-	case states.charge:
-	//dir = random(360);
-			//hsp= lengthdir_x(0.5,dir);
-			//vsp= lengthdir_y(0.5,dir);
-	break;
-	case states.attack:
-	
-	break
 }
-	
-	
 if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;
@@ -66,16 +56,13 @@ image_speed = 0
 					}
 					
 					if(place_meeting(x + hsp, y , obj_wall)){
-					hsp=0;
-					}
-				if(place_meeting(x , y +vsp, obj_wall)){
-				vsp=0;
-					}
-			x+=hsp;
-			y+=vsp;
-			x+=hithsp;
-			y+=hitvsp;
-			
+hsp=0;
+}
+if(place_meeting(x , y +vsp, obj_wall)){
+vsp=0;
+}
+			x+=hsp + hithsp;
+			y+=vsp+hitvsp;
 		if(hp <=0){
 		instance_destroy(id);
 		}
