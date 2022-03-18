@@ -26,8 +26,8 @@ switch (state) {
 	if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;
-	hsp = lengthdir_x(1,direction);
-	vsp = lengthdir_y(1,direction);
+	hsp = lengthdir_x(0.5,direction);
+	vsp = lengthdir_y(0.5,direction);
 	}
 	break;
 	case states.charge:
@@ -59,17 +59,17 @@ image_speed = 0
 		}
 			
 				if(place_meeting(x + hithsp, y , obj_wall)){
-				hithsp=0;
+				hithsp*=-0.5;
 					}
 				if(place_meeting(x , y +hitvsp, obj_wall)){
-				hitvsp=0;
+				hitvsp*=-0.5;
 					}
 					
 					if(place_meeting(x + hsp, y , obj_wall)){
-					hsp=0;
+					hsp*=-1;
 					}
 				if(place_meeting(x , y +vsp, obj_wall)){
-				vsp=0;
+				vsp*=-1;
 					}
 			x+=hsp;
 			y+=vsp;

@@ -75,7 +75,7 @@
     {"id":{"name":"obj_questie","path":"objects/obj_questie/obj_questie.yy",},"order":26,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"sPlayerAttackSlash_strip16","path":"sprites/sPlayerAttackSlash_strip16/sPlayerAttackSlash_strip16.yy",},"order":42,},
-    {"id":{"name":"ob","path":"objects/ob/ob.yy",},"order":31,},
+    {"id":{"name":"obj_stamina","path":"objects/obj_stamina/obj_stamina.yy",},"order":31,},
     {"id":{"name":"spr_player_upa","path":"sprites/spr_player_upa/spr_player_upa.yy",},"order":46,},
     {"id":{"name":"unnamed_291","path":"sprites/unnamed_291/unnamed_291.yy",},"order":21,},
     {"id":{"name":"scr_check_item","path":"scripts/scr_check_item/scr_check_item.yy",},"order":9,},
