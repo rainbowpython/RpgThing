@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-//x = -1000;
-//y = -1000;
-//instance_destroy(self);
+
+draw_sprite_stretched(spr_warp_block,0,100,100,global.stamina*100,20)
