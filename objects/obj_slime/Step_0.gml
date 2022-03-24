@@ -42,8 +42,8 @@ switch (state) {
 	}
 	break;
 	case states.attack:
-	hsp = lengthdir_x(5,direction);
-	vsp = lengthdir_y(5,direction);
+	hsp = lengthdir_x(2,direction);
+	vsp = lengthdir_y(2,direction);
 	//state = states.chase
 	if(place_meeting(x,y,obj_wall)){state = states.idle}
 	break
