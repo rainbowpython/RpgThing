@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_wallfall",
-    "path": "sprites/spr_wallfall/spr_wallfall.yy",
+    "name": "spr_wallfallsmall",
+    "path": "sprites/spr_wallfallsmall/spr_wallfallsmall.yy",
   },
   "solid": false,
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_fall_wall",
+    "path": "objects/obj_fall_wall/obj_fall_wall.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fall_wall",
+  "name": "obj_fall_wal_small",
   "tags": [],
   "resourceType": "GMObject",
 }
