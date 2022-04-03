@@ -2,8 +2,8 @@ right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
-roll_key = keyboard_check_pressed(ord("X"));
-attack_key = keyboard_check_pressed(vk_space);
+//roll_key = keyboard_check_pressed(ord("X"));
+//attack_key = keyboard_check_pressed(vk_space);
 if(state = "Normal" or state = "Roll"){
 	
 }
@@ -14,7 +14,7 @@ scr_normal_script()
 	
 
 
-	if (roll_key){
+	/*if (roll_key){
 		
 	switch (sprite_index){
 	
@@ -39,7 +39,7 @@ scr_normal_script()
 	break;
 		}
 	state = "Roll"
-	}
+	}*//*
 	if (attack_key and global.move_speed == 1.7){
 	
 	switch (sprite_index){
@@ -77,13 +77,14 @@ scr_normal_script()
 	
 		}
 	state = "Attack"
-	}
+	}*/
 	
 	
 //depth
 depth = -bbox_bottom;
 
 }
+/*
 if(state = "Roll"){
 	vsp = vsp/2;
 	hsp = hsp/2;
