@@ -10,3 +10,11 @@ shoot,
 attack,
 charge
 }
+enum globalstates {
+normal,
+one,
+two,
+three,
+four,
+
+}

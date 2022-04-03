@@ -59,6 +59,7 @@ if (direction>=90 and direction<=270){
 speed = 0;
 image_speed = 0
 } 
+
 		var _inst = instance_place(x,y,obj_player_attack)
 		if _inst != noone{
 			//health -= 1
@@ -90,11 +91,11 @@ image_speed = 0
 			x+=hithsp;
 			y+=hitvsp;
 			}
-		if(hp <=0){
+		/*if(hp <=0){
 		instance_destroy(id);
 		}
 		hithsp/=1.5;
-		hitvsp/=1.5
+		hitvsp/=1.5*/
 		if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;
