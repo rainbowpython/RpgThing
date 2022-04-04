@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_speakblock",
-    "path": "sprites/spr_speakblock/spr_speakblock.yy",
+    "name": "spr_main",
+    "path": "sprites/spr_main/spr_main.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,16 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dialogue",
+    "path": "folders/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_speakblock",
+  "name": "obj_textbox_battle",
   "tags": [],
   "resourceType": "GMObject",
 }

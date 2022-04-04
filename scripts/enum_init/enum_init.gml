@@ -12,6 +12,7 @@ charge
 }
 enum globalstates {
 normal,
+start,
 one,
 two,
 three,

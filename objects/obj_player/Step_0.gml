@@ -4,86 +4,17 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 //roll_key = keyboard_check_pressed(ord("X"));
 //attack_key = keyboard_check_pressed(vk_space);
-if(state = "Normal" or state = "Roll"){
-	
-}
-if(state = "Normal"){
+
+if(global.state = globalstates.normal){
 scr_normal_script()
 
 
 	
 
-
-	/*if (roll_key){
-		
-	switch (sprite_index){
-	
-	case spr_player_down :
-	sprite_index = spr_player_downr
-	
-	break;
-	
-	case spr_player_right :
-	sprite_index = spr_player_rightr
-	
-	break;
-	
-	case spr_player_left :
-	sprite_index = spr_player_leftr
-	
-	break;
-	
-	case spr_player_up :
-	sprite_index = spr_player_upr
-	
-	break;
-		}
-	state = "Roll"
-	}*//*
-	if (attack_key and global.move_speed == 1.7){
-	
-	switch (sprite_index){
-	case spr_player_down :
-	sprite_index = spr_player_downa
-	with instance_create_depth(x,y,depth,obj_player_attack){
-		//global.attack_direction = "down"
-	sprite_index = spr_player_attack_slashd
-	}
-	break;
-	
-	case spr_player_right :
-	sprite_index = spr_player_righta
-	with instance_create_depth(x,y,depth,obj_player_attack){
-	//	global.attack_direction = "right"
-	sprite_index = spr_player_attack_slashr
-	}
-	break;
-	
-	case spr_player_left :
-	sprite_index = spr_player_lefta
-	with instance_create_depth(x,y,depth,obj_player_attack){
-	//	global.attack_direction = "left"
-	sprite_index = spr_player_attack_slashl
-	}
-	break;
-	
-	case spr_player_up :
-	sprite_index = spr_player_upa
-	with instance_create_depth(x,y,depth,obj_player_attack){
-	//	global.attack_direction = "up"
-	sprite_index = spr_player_attack_slashu
-	}
-	break;
-	
-		}
-	state = "Attack"
-	}*/
-	
-	
-//depth
 depth = -bbox_bottom;
 
-}
+}else{}
+
 /*
 if(state = "Roll"){
 	vsp = vsp/2;

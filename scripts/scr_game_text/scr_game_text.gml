@@ -3,13 +3,14 @@
 function scr_game_text(_text_id){
 	switch(_text_id){
 		//scr_option("the thing that shows up", "(_option), (id - option)")
+		#region cookie
 		case "cookie":
 		scr_text("You got a cookie!!")
 		scr_add_item("cookie");
 		instance_destroy(obj_cookie);
 		break;
-		
-		
+		#endregion
+		#region trash
 	case "trash":
 		scr_text("its trash, does not smell to great")
 			//scr_text("do you want to eat trash?")
@@ -36,7 +37,7 @@ function scr_game_text(_text_id){
 		scr_text("You got: Trash!!")
 		scr_add_item("trash")
 	break
-	
+	#endregion
 	
 	case "box2":
 	scr_text("A good place to hide...");
@@ -82,6 +83,7 @@ function scr_game_text(_text_id){
 	scr_text("This memory garden flows");
 	break
 	
+	#region fireplace
 	case "fireplace":
 	scr_text("Jump in the fire?");
 			scr_option("yes", "fireplace - yes")
@@ -102,12 +104,29 @@ function scr_game_text(_text_id){
 	//room_goto("Hotland_1")
 	instance_destroy(obj_textbox);
 	break;
-	
+	#endregion
 	
 	case "questie":
 	scr_text("Hewo! I'm you're best buddie questie!");
 	scr_text("I like questing!")
 	if (scr_check_item("cookie") = true){scr_text("cookie")}
 	break;
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}
+
+function scr_battle_text(_text_id){
+	switch(_text_id){
+	case "nothing":
+	
+	scr_text("")
+	break
 	}
 }

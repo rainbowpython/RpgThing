@@ -1,9 +1,10 @@
 accept_key = keyboard_check_pressed(ord("Z"))
 accept_keyx = keyboard_check_pressed(ord("X"))
 
-textbox_x = camera_get_view_x(view_camera[0]) +20;
-textbox_y = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) - textbox_height*24);
-
+//textbox_x = camera_get_view_x(view_camera[0]) +20;
+//textbox_y = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) - textbox_height*24);
+textbox_x = 0
+textbox_y =200
 
 
 //setup

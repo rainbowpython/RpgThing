@@ -24,26 +24,8 @@ if(i_timer >= 120 and obj_player.state !="Roll"){
 var _inst = instance_place(x, y, obj_slime);
 if _inst != noone{
 
-	i_timer = 0;
-	with(obj_player){
-	
-	//dir = point_direction(obj_heart.x,obj_heart.y,_inst.x, _inst.y);
-	dir = point_direction(_inst.x, _inst.y,obj_heart.x,obj_heart.y);
-	//direction = dir
-		hithsp= lengthdir_x(6,dir);
-		hitvsp= lengthdir_y(6,dir);
-		
-	
-	
-	health  -= _inst.attack_damage;
-	
-	
-	
-		if(health <= 0){
-		game_end();
-		}
-	}
-	
+	global.state = globalstates.start
+	//room_goto(battle)
 	
 } 
 }else{
