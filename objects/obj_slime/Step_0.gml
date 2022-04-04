@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editors
+if(global.state = globalstates.normal){
 switch (state) {
 	case states.idle:
 	actionDur = 0;
@@ -91,6 +92,7 @@ image_speed = 0
 			x+=hithsp;
 			y+=hitvsp;
 			}
+}
 		/*if(hp <=0){
 		instance_destroy(id);
 		}

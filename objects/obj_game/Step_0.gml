@@ -31,6 +31,8 @@ obj_player.x = 100
 obj_player.y = 100
 obj_player.image_xscale = 2;
 obj_player.image_yscale = 2;
+
+instance_create_depth(300,obj_player.y,0,global.enemy)
 }
 #endregion
 

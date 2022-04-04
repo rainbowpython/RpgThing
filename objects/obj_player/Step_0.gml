@@ -13,7 +13,10 @@ scr_normal_script()
 
 depth = -bbox_bottom;
 
-}else{}
+}else {
+	sprite_index = spr_player_right
+	image_speed = 0
+	}
 
 /*
 if(state = "Roll"){

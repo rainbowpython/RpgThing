@@ -21,10 +21,11 @@ i_timer++
 
 if(i_timer >= 120 and obj_player.state !="Roll"){
 
-var _inst = instance_place(x, y, obj_slime);
+var _inst = instance_place(x, y, obj_enemy);
 if _inst != noone{
-
+	global.enemy = _inst.object_index
 	global.state = globalstates.start
+	//_inst.object_index.x = 300;
 	//room_goto(battle)
 	
 } 
