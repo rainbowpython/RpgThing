@@ -34,27 +34,7 @@ draw_char = clamp(draw_char, 0, text_length[page])
 }
 
 //-------------------------flip through pages
-if accept_keyx{
-	
-	//if typing is done enough
-	if draw_char == text_length[page]{
-		if page < page_number - 1{
-		page++
-		draw_char = 0;
-		}
-		else{
-		instance_destroy();
-		
-		}
-		
-		
-	}
-	
-	//if not done typing
-	else{
-	draw_char = text_length[page]
-	}
-}
+
 if accept_key{
 	
 	//if typing is done enough
@@ -70,26 +50,17 @@ if accept_key{
 			
 			
 			}
-		instance_destroy();
+		//instance_destroy();
 		
 		}
 		
 		
 	}
 	
-	//if not done typing
-//else{
-//	draw_char = text_length[page]
-//	}
+
 }
 
-	
-	
-	
-	
-	
-	
-	
+
 	draw_sprite_ext(spr_main, image_index,textbox_x,textbox_y,textbox_width,textbox_height,0,c_white,1)
 	//draw_sprite(spr_main, 1 ,x,y)
 
