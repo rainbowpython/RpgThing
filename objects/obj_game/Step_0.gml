@@ -23,7 +23,7 @@ global.move_speed = 0;
 
 #region fight
 if(global.state = globalstates.start){
-instance_create_depth(0,0,0,obj_textbox_battle)
+
 
 if(room != battle){
 room_goto(battle)
@@ -34,10 +34,13 @@ obj_player.image_xscale = 2;
 obj_player.image_yscale = 2;
 if(instance_number(global.enemy) = 0){
 enemy = instance_create_depth(300+50,obj_player.y,-1,global.enemy)
+
+
 //enemy.image_xscale = -1;
 }else{
 global.state = globalstates.one
-
+global.text = global.enemy.text
+instance_create_depth(0,0,0,obj_textbox_battle)
 	}
 }
 #endregion

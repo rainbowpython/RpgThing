@@ -114,11 +114,6 @@ function scr_game_text(_text_id){
 	
 	
 	
-	
-	
-	
-	
-	
 	}
 }
 
@@ -126,6 +121,11 @@ function scr_battle_text(_text_id){
 	switch(_text_id){
 	case "nothing":
 	
+	scr_text("e")
+	break
+	
+	case "slime":
+	scr_text("A slime approaches!!");
 	scr_text("")
 	break
 	}
