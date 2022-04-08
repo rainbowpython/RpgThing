@@ -12,6 +12,9 @@ break;
 	case Room5:
 	scr_music(house)
 	break
+	case battle:
+	scr_music(garbage);
+	break
 }
 
 

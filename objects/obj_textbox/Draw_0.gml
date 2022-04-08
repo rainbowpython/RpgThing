@@ -85,10 +85,6 @@ if accept_key{
 	
 	
 	
-	
-	
-	
-	
 	draw_sprite_ext(spr_main, image_index,textbox_x,textbox_y,textbox_width,textbox_height,0,c_white,1)
 	//draw_sprite(spr_main, 1 ,x,y)
 
