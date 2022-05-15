@@ -126,7 +126,6 @@ function scr_battle_text(_text_id){
 	
 	case "slime":
 	scr_text("A slime approaches!!");
-	scr("")
 	break
 	}
 }
