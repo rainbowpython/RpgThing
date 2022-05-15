@@ -38,7 +38,7 @@ function scr_game_text(_text_id){
 		scr_add_item("trash")
 	break
 	#endregion
-	
+	#region box
 	case "box2":
 	scr_text("A good place to hide...");
 	scr_text("A body");
@@ -69,7 +69,7 @@ function scr_game_text(_text_id){
 	instance_destroy()
 	}
 	break
-	
+	#endregion
 	
 	
 	case "bed":
@@ -126,7 +126,7 @@ function scr_battle_text(_text_id){
 	
 	case "slime":
 	scr_text("A slime approaches!!");
-	scr_text("")
+	scr("")
 	break
 	}
 }
