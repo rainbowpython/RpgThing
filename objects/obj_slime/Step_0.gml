@@ -46,8 +46,8 @@ switch (state) {
 	hsp = lengthdir_x(2,direction);
 	vsp = lengthdir_y(2,direction);
 	//state = states.chase
-	if(place_meeting(x,y,obj_wall) or place_meeting(x,y,obj_fall_wall)){state = states.idle}
-	if(place_meeting(x,y,obj_wall)){state = states.idle}
+	if(place_meeting(x,y,obj_wall) or place_meeting(x,y,obj_fall_wall) or place_meeting(x,y,obj_wall2)){state = states.idle}
+	//if(place_meeting(x,y,obj_wall)){state = states.idle}
 	break
 }
 	
