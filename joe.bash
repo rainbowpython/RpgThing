@@ -1,0 +1,1 @@
+"/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono"  /Users/Shared/GameMakerStudio2/Cache/runtimes/runtime-2022.3.0.497/bin/Igor.exe -j=8 -options="/tmp/GameMakerStudio2/GMS2TEMP/build.bff" -v -- Mac Run

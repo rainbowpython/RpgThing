@@ -41,6 +41,7 @@ enemy = instance_create_depth(300+50,obj_player.y,-1,global.enemy)
 global.state = globalstates.one
 global.text = global.enemy.text
 instance_create_depth(0,0,0,obj_textbox_battle)
+//create_game_textbox("")
 	}
 }
 #endregion

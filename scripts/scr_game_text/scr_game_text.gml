@@ -71,7 +71,10 @@ function scr_game_text(_text_id){
 	break
 	#endregion
 	
-	
+	case"books":
+	scr_text("Mein Kampf");
+	scr_text("Manefesto de communismo");
+	break
 	case "bed":
 	scr_text("C L O S E");
 	scr_text("Y O U R  E Y E S");
@@ -106,19 +109,35 @@ function scr_game_text(_text_id){
 	break;
 	#endregion
 	
+	#region questie
 	case "questie":
-	scr_text("Hewo! I'm you're best buddie questie!");
+	scr_text("Hewo! I'm you're best bwuddie questie!");
 	scr_text("I like questing!")
-	if (scr_check_item("cookie") = true){scr_text("cookie")}
+	if (scr_check_item("cookie") = true){
+		scr_text("oo, cookie");
+		scr_text("caan whi have?")
+		scr_text("Pweeaaase? >w<");
+		scr_option("Here","questie - give");
+		scr_option("no", "questie - no");
+	}
 	break;
-	
-	
+	case"questie - give":
+	scr_remove_item("cookie")
+	scr_text("Thank you :)");
+	break;
+	case"questie - no":
+	scr_text("ookey...")
+	break;
+	#endregion
 	
 	}
 }
 
 function scr_battle_text(_text_id){
+	
 	switch(_text_id){
+	
+		
 	case "nothing":
 	
 	scr_text("e")
@@ -126,10 +145,20 @@ function scr_battle_text(_text_id){
 	
 	case "slime":
 	scr_text("A slime approaches!!");
-	
+	scr_text("What will you do?");
+	scr_option("attack", "attack")
+	scr_text("2");
+	break
+	case "attack":
+	scr_text("ejhvhkbhkj")
+	//audio_play_sound(made_in_heaven_test_animationyoutubetomp3,1,1)
 	break
 	
-	}
-	scr_option("attack", "attack")
 	
-}
+	}
+
+	
+	
+	}
+
+	

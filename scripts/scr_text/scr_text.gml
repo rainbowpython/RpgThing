@@ -12,9 +12,16 @@ page_number++
 	
 
 
-	global.text = _text_id
+	global.text = _text_id;
 	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox)
 			}
+function create_game_textbox(_text_id){
+	
+
+
+	global.text = _text_id;
+	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox_battle)
+}
 		
 	
 	
@@ -25,6 +32,6 @@ page_number++
 	option[option_number] = _option;
 	option_link_id[option_number] = _link_id;
 	
-	option_number++
+	option_number++;
 	
 	}
