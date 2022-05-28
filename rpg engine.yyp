@@ -30,6 +30,7 @@
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"order":25,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
     {"id":{"name":"obj_cookie","path":"objects/obj_cookie/obj_cookie.yy",},"order":28,},
+    {"id":{"name":"atack","path":"objects/atack/atack.yy",},"order":0,},
     {"id":{"name":"Hotland_1","path":"rooms/Hotland_1/Hotland_1.yy",},"order":6,},
     {"id":{"name":"enum_init","path":"scripts/enum_init/enum_init.yy",},"order":7,},
     {"id":{"name":"battle","path":"rooms/battle/battle.yy",},"order":7,},
@@ -56,6 +57,7 @@
     {"id":{"name":"spr_player_attack_slashl","path":"sprites/spr_player_attack_slashl/spr_player_attack_slashl.yy",},"order":50,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":33,},
     {"id":{"name":"spr_maincharau_0","path":"sprites/spr_maincharau_0/spr_maincharau_0.yy",},"order":7,},
+    {"id":{"name":"obj_battle_option","path":"objects/obj_battle_option/obj_battle_option.yy",},"order":40,},
     {"id":{"name":"obj_big_square","path":"objects/obj_big_square/obj_big_square.yy",},"order":13,},
     {"id":{"name":"obj_textbox3","path":"objects/obj_textbox3/obj_textbox3.yy",},"order":2,},
     {"id":{"name":"spr_player_rightr","path":"sprites/spr_player_rightr/spr_player_rightr.yy",},"order":39,},
@@ -173,6 +175,7 @@
     {"folderPath":"folders/Extensions.yy","order":12,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Menu.yy","order":13,"resourceVersion":"1.0","name":"Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Dialogue.yy","order":14,"resourceVersion":"1.0","name":"Dialogue","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/combat_objects.yy","order":39,"resourceVersion":"1.0","name":"combat_objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

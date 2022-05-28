@@ -25,6 +25,7 @@ option_link_id[0] = -1;
 option_pos = 0;
 option_number = 0;
 
-scr_game_text(global.text);
+//scr_game_text(global.text);
+scr_battle_text(global.text)
 
 

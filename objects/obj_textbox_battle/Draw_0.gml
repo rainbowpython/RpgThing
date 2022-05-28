@@ -47,10 +47,11 @@ if accept_key{
 		else{
 			if (option_number > 0 ){
 				create_game_textbox(option_link_id[option_pos]);
-			
+				//create_textbox(option_link_id[option_pos]);
+				
 			
 			}
-		//instance_destroy();
+		instance_destroy();
 		
 		}
 		

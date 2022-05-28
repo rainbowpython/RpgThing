@@ -147,11 +147,20 @@ function scr_battle_text(_text_id){
 	scr_text("A slime approaches!!");
 	scr_text("What will you do?");
 	scr_option("attack", "attack")
-	scr_text("2");
+	scr_option("defend", "defend")
+	//scr_text("2");
 	break
+	#region attack
 	case "attack":
-	scr_text("ejhvhkbhkj")
-	//audio_play_sound(made_in_heaven_test_animationyoutubetomp3,1,1)
+	scr_text("which one?");
+	scr_option(object_get_name());
+	break
+	
+	#endregion
+	case "defend":
+	scr_text("e")
+	
+
 	break
 	
 	

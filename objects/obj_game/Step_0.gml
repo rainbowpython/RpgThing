@@ -39,8 +39,9 @@ enemy = instance_create_depth(300+50,obj_player.y,-1,global.enemy)
 //enemy.image_xscale = -1;
 }else{
 global.state = globalstates.one
-global.text = global.enemy.text
-instance_create_depth(0,0,0,obj_textbox_battle)
+create_game_textbox(global.enemy.text);
+//global.text = global.enemy.text
+//instance_create_depth(0,0,0,obj_textbox_battle)
 //create_game_textbox("")
 	}
 }
