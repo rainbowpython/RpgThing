@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 ///@param text
-global.textbox_change=1
+
 function scr_text(_text){
 
 text[page_number] = _text;
@@ -14,9 +14,8 @@ page_number++
 	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox)
 			}
 function create_game_textbox(_text_id){
-	global.textbox_change+=1
 	global.text = _text_id;
-	instance_create_depth(x,y,-9999999999999999999999999999999999999999999-global.textbox_change,obj_textbox_battle)
+	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox_battle)
 }
 		
 	

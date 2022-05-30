@@ -135,9 +135,9 @@ function scr_game_text(_text_id){
 
 function scr_battle_text(_text_id){
 	
-	switch(_text_id){
 	
-		
+	
+	switch(_text_id){
 	case "nothing":
 	
 	scr_text("e")
@@ -148,13 +148,27 @@ function scr_battle_text(_text_id){
 	scr_text("What will you do?");
 	scr_option("attack", "attack")
 	scr_option("defend", "defend")
-	//scr_text("2");
 	break
+	case "lava_slime":
+	scr_text("A slime approaches!!");
+	break
+	
+	
 	#region attack
 	case "attack":
 	scr_text("which one?");
-	scr_option(object_get_name());
+	scr_option(global.enemy.text,"attack_1");
 	break
+	
+	case "attack_1":
+	
+	scr_text (global.enemy.name + " took " + string(obj_player.attack_damage)+ " damage");
+	global.enemy.hp-=obj_player.attack_damage;
+	
+	break
+	
+	
+	
 	
 	#endregion
 	case "defend":

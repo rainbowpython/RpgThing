@@ -146,7 +146,11 @@
   "isEcma": false,
   "configs": {
     "name": "Default",
-    "children": [],
+    "children": [
+      {"name":"NewConfig1","children":[
+          {"name":"NewConfig2","children":[],},
+        ],},
+    ],
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},

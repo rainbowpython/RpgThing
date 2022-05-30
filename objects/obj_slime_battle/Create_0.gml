@@ -3,3 +3,5 @@
 
 event_inherited();
 text = "slime"
+name = "Slime"
+hp = 20

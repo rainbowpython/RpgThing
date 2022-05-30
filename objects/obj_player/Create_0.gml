@@ -7,7 +7,7 @@ image_yscale = 1.2
 global.move_speed = 2;
 image = 0;
 
-attack = 1;
+attack_damage = 5;
 sprite[RIGHT] = spr_player_right;
 sprite[UP] = spr_player_up;
 sprite[LEFT] = spr_player_left;
