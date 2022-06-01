@@ -164,6 +164,9 @@ function scr_battle_text(_text_id){
 	
 	scr_text (global.enemy.name + " took " + string(obj_player.attack_damage)+ " damage");
 	global.enemy.hp-=obj_player.attack_damage;
+	global.state = globalstates.enemy1;
+	
+	
 	
 	break
 	
@@ -175,6 +178,12 @@ function scr_battle_text(_text_id){
 	scr_text("e")
 	
 
+	break
+	
+	
+	
+	case "enemy_1":
+	scr_text("eeee")
 	break
 	
 	

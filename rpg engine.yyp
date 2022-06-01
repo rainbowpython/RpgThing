@@ -127,6 +127,7 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":3,},
     {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":3,},
     {"id":{"name":"obj_slime_battle","path":"objects/obj_slime_battle/obj_slime_battle.yy",},"order":34,},
+    {"id":{"name":"scr_enemy_attack","path":"scripts/scr_enemy_attack/scr_enemy_attack.yy",},"order":12,},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":30,},
     {"id":{"name":"Object30","path":"objects/Object30/Object30.yy",},"order":29,},
     {"id":{"name":"spr_house_tiles","path":"sprites/spr_house_tiles/spr_house_tiles.yy",},"order":8,},

@@ -38,9 +38,13 @@ enemy = instance_create_depth(300+50,obj_player.y,-1,global.enemy)
 
 //enemy.image_xscale = -1;
 }else{
-global.state = globalstates.one
+global.state = globalstates.one;
 create_game_textbox(global.enemy.text);
 	}
 }
+if(global.state = globalstates.enemy1){
+	create_game_textbox("enemy_1");
+}
+
 #endregion
 
