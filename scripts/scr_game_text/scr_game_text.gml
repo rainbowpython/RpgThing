@@ -183,7 +183,25 @@ function scr_battle_text(_text_id){
 	
 	
 	case "enemy_1":
-	scr_text("eeee")
+	
+	
+	scr_enemy_attack("");
+	
+	
+	if(instance_exists(obj_textbox_battle) != true){
+
+	create_game_textbox("restart");
+
+	}
+	
+	//create_game_textbox("restart")
+	global.state = globalstates.start;
+	break
+	
+	case "restart":
+	//scr_text("e");
+	global.state = globalstates.start;
+	//scr_text("e");
 	break
 	
 	

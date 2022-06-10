@@ -42,6 +42,10 @@ global.state = globalstates.one;
 create_game_textbox(global.enemy.text);
 	}
 }
+if(global.state = globalstates.one){
+	//create_game_textbox(global.enemy.text);
+}
+
 if(global.state = globalstates.enemy1){
 	create_game_textbox("enemy_1");
 }

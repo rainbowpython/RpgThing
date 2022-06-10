@@ -1,6 +1,6 @@
 global.text = ""
 //Global.attack_direction = 
 global.inventory = array_create(INVENTORY_SLOTS, "");
-global.stamina = 20;
+//global.stamina = 20;
 global.state  = globalstates.normal;
-global.textbox_depth = -99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999^9
+//global.textbox_depth = -99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999^9
