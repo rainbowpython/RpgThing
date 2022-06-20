@@ -2,7 +2,7 @@
 // You can write your code in this editor
 state = states.idle;
 actionDur = 0;
-speed = 0.5
+//speed = 0.5
 distance_trigger = 100
 attack_damage = 1;
 hp = 2;
@@ -13,3 +13,5 @@ hithsp =0
 hitvsp = 0
 //charge for attack
 charge = 0;
+battleo = obj_slime_battle
+

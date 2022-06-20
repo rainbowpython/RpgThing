@@ -1,4 +1,4 @@
-
+#region random stuff
 	if(instance_exists(obj_textbox or obj_inventory)){
 		global.move_speed = 0
 	}
@@ -15,4 +15,40 @@
 	if(instance_exists(obj_inventory)){
 global.move_speed = 0;
 }
+#endregion
+
+
+
+
+
+#region fight
+if(global.state = globalstates.start){
+
+
+if(room != battle){
+room_goto(battle)
+	}
+obj_player.x = 100
+obj_player.y = 100
+obj_player.image_xscale = 2;
+obj_player.image_yscale = 2;
+if(instance_number(global.enemy) = 0){
+enemy = instance_create_depth(300+50,obj_player.y,-1,global.enemy)
+
+
+//enemy.image_xscale = -1;
+}else{
+global.state = globalstates.one;
+create_game_textbox(global.enemy.text);
+	}
+}
+if(global.state = globalstates.one){
+	//create_game_textbox(global.enemy.text);
+}
+
+if(global.state = globalstates.enemy1){
+	create_game_textbox("enemy_1");
+}
+
+#endregion
 

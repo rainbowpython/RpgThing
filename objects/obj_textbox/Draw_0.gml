@@ -3,14 +3,6 @@ accept_keyx = keyboard_check_pressed(ord("X"))
 
 textbox_x = camera_get_view_x(view_camera[0]) +20;
 textbox_y = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) - textbox_height*24);
-//textbox_x = room_width/2-width/2
-//textbox
-//x = textbox_x
-//y = textbox_y
-//x
-
-//width = camera_get_view_width(view_camera[0])-100;
-
 
 
 
@@ -90,10 +82,6 @@ if accept_key{
 //	}
 }
 
-	
-	
-	
-	
 	
 	
 	

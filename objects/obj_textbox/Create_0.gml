@@ -27,34 +27,4 @@ option_number = 0;
 
 scr_game_text(global.text);
 
-/*
-switch (global.text){
-	
-case "":
-//text[0] = "joe wake";
-//text[1] = "joe wake sfasdfasdfa";
-//text[2] = "joewakesfasdfasdfa";
-//text[3] = "There is a line and it brings this world..... INTO MY HAND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-break;	
-
-case "trash":
-//scr_text("its trash, the fuck you did you expect?")
-scr_game_text(global.text);
-//text[0] = "its trash, the fuck you did you expect?";
-//text[1] = "joe wake sfasdfasdfa";
-//text[2] = "joewakesfasdfasdfa";
-//text[3] = "There is a line and it brings this world..... INTO MY HAND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-break;
-
-case "box2":
-scr_game_text(global.text);
-//text[0] = "A good place to hide...";
-//text[1] = "A body";
-//text[2] = "joewakesfasdfasdfa";
-//text[3] = "There is a line and it brings this world..... INTO MY HAND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-break;
-}
-*/
-
-//text_length[0] = string_length(text[0])
 

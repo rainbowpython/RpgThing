@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editors
+if(global.state = globalstates.normal){
 switch (state) {
 	case states.idle:
 	actionDur = 0;
@@ -45,7 +46,7 @@ switch (state) {
 	hsp = lengthdir_x(2,direction);
 	vsp = lengthdir_y(2,direction);
 	//state = states.chase
-	if(place_meeting(x,y,obj_wall) or place_meeting(x,y,obj_fall_wall)){state = states.idle}
+	if(place_meeting(x,y,obj_wall) or place_meeting(x,y,obj_fall_wall) or place_meeting(x,y,obj_wall2)){state = states.idle}
 	//if(place_meeting(x,y,obj_wall)){state = states.idle}
 	break
 }
@@ -59,6 +60,7 @@ if (direction>=90 and direction<=270){
 speed = 0;
 image_speed = 0
 } 
+
 		var _inst = instance_place(x,y,obj_player_attack)
 		if _inst != noone{
 			//health -= 1
@@ -90,11 +92,14 @@ image_speed = 0
 			x+=hithsp;
 			y+=hitvsp;
 			}
-		if(hp <=0){
+}else {
+image_speed =5;
+}
+		/*if(hp <=0){
 		instance_destroy(id);
 		}
 		hithsp/=1.5;
-		hitvsp/=1.5
+		hitvsp/=1.5*/
 		if (direction>=90 and direction<=270){
 	image_xscale=-1
 	}else image_xscale = 1;

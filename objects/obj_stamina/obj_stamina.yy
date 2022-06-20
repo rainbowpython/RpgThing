@@ -4,7 +4,7 @@
     "path": "sprites/spr_warp_block/spr_warp_block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": null,

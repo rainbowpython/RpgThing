@@ -12,3 +12,4 @@ vsp = 0
 hithsp =0
 hitvsp = 0
 charge = 0;
+battleo = obj_slime_lava_battle

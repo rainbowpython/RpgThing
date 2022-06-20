@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 ///@param text
+
 function scr_text(_text){
 
 text[page_number] = _text;
@@ -9,12 +10,13 @@ page_number++
 		}
 
  function create_textbox(_text_id){
-	
-
-
-	global.text = _text_id
+	global.text = _text_id;
 	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox)
 			}
+function create_game_textbox(_text_id){
+	global.text = _text_id;
+	instance_create_depth(x,y,-9999999999999999999999999999999999999999999,obj_textbox_battle)
+}
 		
 	
 	
@@ -25,6 +27,6 @@ page_number++
 	option[option_number] = _option;
 	option_link_id[option_number] = _link_id;
 	
-	option_number++
+	option_number++;
 	
 	}

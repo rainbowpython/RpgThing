@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+/*
 //x = obj_camara.x  - width/2;
 x = camera_get_view_x(view_camera[0]);
 y = obj_camara.y - camera_get_view_height(view_camera[0])/2;
