@@ -138,6 +138,7 @@ function scr_battle_text(_text_id){
 	
 	
 	switch(_text_id){
+	#region enemy_type
 	case "nothing":
 	
 	scr_text("e")
@@ -152,7 +153,7 @@ function scr_battle_text(_text_id){
 	case "lava_slime":
 	scr_text("A slime approaches!!");
 	break
-	
+	#endregion
 	
 	#region attack
 	case "attack":
@@ -170,14 +171,10 @@ function scr_battle_text(_text_id){
 	
 	break
 	
-	
-	
-	
 	#endregion
 	case "defend":
 	scr_text("e")
 	
-
 	break
 	
 	
@@ -185,17 +182,22 @@ function scr_battle_text(_text_id){
 	case "enemy_1":
 	
 	
-	scr_enemy_attack("");
-	
-	
-	if(instance_exists(obj_textbox_battle) != true){
+	//scr_enemy_attack("");
+	//attack_type = irandom_range(1,2);
+	//if(attack_type == 1){
+		obj_player.hp -= global.enemy.attack_damage;
+		scr_text("You took " + string(global.enemy.attack_damage) + " damage");
 
-	create_game_textbox("restart");
+	//}
+	
+	//if(instance_exists(obj_textbox_battle) != true){
 
-	}
+	//create_game_textbox("restart");
+	global.state = globalstates.start;
+	//}
 	
 	//create_game_textbox("restart")
-	global.state = globalstates.start;
+	//global.state = globalstates.start;
 	break
 	
 	case "restart":
